@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-function App() {
+function Header() {
   return (
     <div className="header">
       <h1>Text to Emoji</h1>
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;
