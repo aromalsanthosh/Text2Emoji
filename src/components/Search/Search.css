@@ -8,9 +8,13 @@
   padding-left:15px;
   font-size: 20px;
   margin-right: 25px;
+  background-color: pink;
+  box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.2);
+  border: .2rem solid transparent;
+  
+}
+body{
+  background: #3C91E6;
+  color: #342E37;
 }
 
-.bttn{
-  height: 40px;
-  margin-bottom: 30px;
-}

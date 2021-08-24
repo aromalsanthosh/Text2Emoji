@@ -22,8 +22,10 @@ function handleChange(e) {
     let matches = faces.filter(v =>  v.name.toLowerCase().includes(val));
     //console.log(matches);
     //console.log(matches[0].name);
-    document.getElementById("text").textContent=matches[0].name;
-    document.getElementById("emoji").textContent=matches[0].emoji;  
+    if(matches.length!==0){
+      document.getElementById("text").textContent=matches[0].name;
+      document.getElementById("emoji").textContent=matches[0].emoji; 
+    }
   }
 
 
