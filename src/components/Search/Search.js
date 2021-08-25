@@ -3,7 +3,7 @@ import './Search.css';
 
 function Search() {
 
-  const faces = [
+  const emojis = [
   { name:'happy',emoji:  '😊' },
   { name:'love',emoji:  '😍' },
   { name:'angry',emoji:  '😡' },
@@ -19,7 +19,7 @@ function Search() {
 function handleChange(e) {
     //console.log(e.target.value);
     let val = e.target.value.toLowerCase();
-    let matches = faces.filter(v =>  v.name.toLowerCase().includes(val));
+    let matches = emojis.filter(v =>  v.name.toLowerCase().includes(val));
     //console.log(matches);
     //console.log(matches[0].name);
     if(matches.length!==0){
