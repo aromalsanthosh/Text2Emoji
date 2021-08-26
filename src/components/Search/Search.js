@@ -4,6 +4,7 @@ import './Search.css';
 function Search() {
 
   const emojis = [
+    
   { name:'happy',emoji:  '😊' },
   { name:'love',emoji:  '😍' },
   { name:'angry',emoji:  '😡' },
@@ -13,6 +14,7 @@ function Search() {
   { name:'run',emoji:  '🏃‍♂️' },
   { name:'heart',emoji:  '💖' },
   { name:'laugh',emoji:  '😂' },
+
   ] 
 
 
@@ -23,8 +25,10 @@ function handleChange(e) {
     //console.log(matches);
     //console.log(matches[0].name);
     if(matches.length!==0){
+
       document.getElementById("text").textContent=matches[0].name;
       document.getElementById("emoji").textContent=matches[0].emoji; 
+
     }
   }
 
