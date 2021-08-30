@@ -1,3 +1,8 @@
+# Text2Emoji Converter
+
+##### A Text to Emoji Converter Web App built using React.js Built as a part of internship training at [Incredible Visibility](https://www.incrediblevisibility.com/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd97a399-9427-472b-9800-33e1067413a7/deploy-status)](https://app.netlify.com/sites/text2emoji/deploys)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Running on Repl.it
